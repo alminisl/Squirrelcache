@@ -1,6 +1,8 @@
 const fs = require("fs");
 var CronJob = require("cron").CronJob;
 
+const path = './data.json'
+
 const storeData = (data, path) => {
   const dataToSaveInJson = {
     timestamp: new Date().getTime(),
