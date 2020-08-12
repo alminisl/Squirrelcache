@@ -1,9 +1,12 @@
 const fs = require("fs");
 var CronJob = require("cron").CronJob;
 
-const path = './data.json'
+const pathDefault = './data.json'
 
 const storeData = (data, path) => {
+  if(!path) {
+    path = pathDefault
+  }
   const dataToSaveInJson = {
     timestamp: new Date().getTime(),
     data,
@@ -16,6 +19,9 @@ const storeData = (data, path) => {
 }
 
 const loadFromCache = async (path) => {
+  if(!path) {
+    path = pathDefault
+  }
   if(fs.existsSync(path)) {
     const returnData = JSON.parse(fs.readFileSync(path, "utf8"))
     return returnData
