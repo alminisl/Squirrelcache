@@ -13,6 +13,10 @@
 <h3 align="center">
 <p>Small caching Library which has the goal to help you store and retrieve data as simple JSON on you disk </p>
 </h3>
+## Idea
+
+I had the problem that some of the APIs I use are limited with X number of requests per day. However, the data on them is not real time and is updated every month or so. That gave me the idea for squirell cache. The current version only supports storing data and retrieving data. My plans are to make it more generic and include axios + the saving of data. Currently due to time constraints can't focus much time on this but will try to write more about the development process.
+
 
 ## Installation
 
