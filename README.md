@@ -14,7 +14,7 @@
 <p>Small caching Library which has the goal to help you store and retrieve data as simple JSON on you disk (Hopefully a key-value store) </p>
 </h3>
 
-## Note: This is just a dummy or placeholder Repo for this project
+```⚠️ Note: This is just a dummy or placeholder Repo for this project ⚠️```
 
 ## Idea
 
