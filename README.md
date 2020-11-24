@@ -14,6 +14,8 @@
 <p>Small caching Library which has the goal to help you store and retrieve data as simple JSON on you disk (Hopefully a key-value store) </p>
 </h3>
 
+## Note: This is just a dummy or placeholder Repo for this project
+
 ## Idea
 
 I had the problem that some of the APIs I use are limited with X number of requests per day. However, the data on them is not 
