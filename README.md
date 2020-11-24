@@ -16,11 +16,6 @@
 
 ```⚠️ Note: This is just a dummy or placeholder Repo for this project ⚠️```
 
-## Idea
-
-I had the problem that some of the APIs I use are limited with X number of requests per day. However, the data on them is not 
-I had the problem that some of the APIs I use are real time and is updated every month or so. That gave me the idea for squirell cache. The current version only supports storing data and retrieving data. My plans are to make it more generic and include axios + the saving of data. Currently due to time constraints can't focus much time on this but will try to write more about the development process.
-
 
 ## Installation
 
